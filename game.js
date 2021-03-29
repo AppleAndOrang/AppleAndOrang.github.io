@@ -14,7 +14,6 @@ let yvel = 0;
 
 function game() {
   canvas.coinInterval++;
-  console.log("here");
   if (rightkey || leftkey) {
     if (rightkey) {
       xvel += 10;
