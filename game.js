@@ -35,16 +35,16 @@ function game() {
     }
     
     if (!onGround) {
-        yVel += 1;
+        yvel += 1;
     } else {
         if (jumpKey) {
             onGround = false;
-            yVel = 12;
+            yvel = 12;
         }
-        yVel = 0;
+        yvel = 0;
     }
     
-    y += yVel;
+    y += yvel;
 
     if ((x + 100 > coinX && x < coinX + 20) && (y + 100 > coinY && y < coinY + 20)) {
         score++;
