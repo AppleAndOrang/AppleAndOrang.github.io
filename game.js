@@ -36,7 +36,7 @@ function game() {
     if (!onGround) {
         yvel += 1;
     } else {
-        if (jumpKey) {
+        if (jumpkey) {
             onGround = false;
             yvel = 12;
         }
