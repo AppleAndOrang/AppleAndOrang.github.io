@@ -20,10 +20,3 @@ const playerColour = "rgb(118, 150, 86)";
 const screenColour = "rgb(0, 0, 0)";
 const coinColour = "rgb(221, 175, 12)";
 const textColour = "rgba(255,255,255,0.5)";
-
-// The main game function:
-function game() {
-  canvas.coinInterval++;
-  
-  let ctx = canvas.context;
-}
