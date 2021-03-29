@@ -26,7 +26,7 @@ function game() {
   }
   
   x += xvel;
-  
+  xvel = 0
   if (y >= 700) {
         onGround = true;
     } else {
@@ -44,6 +44,7 @@ function game() {
     }
     
     y += yvel;
+    yvel = 0
 
     if ((x + 100 > coinX && x < coinX + 20) && (y + 100 > coinY && y < coinY + 20)) {
         score++;
