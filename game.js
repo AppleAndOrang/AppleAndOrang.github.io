@@ -71,17 +71,17 @@ function game() {
 
     let ctx = canvas.context;
 
-    ctx.fillStyle = screenColor;
+    ctx.fillStyle = screenColour;
     ctx.fillRect(0, 0, 800, 800);
 
-    ctx.fillStyle = playerColor;
+    ctx.fillStyle = playerColour;
     ctx.fillRect(x, y, 100, 100);
 
-    ctx.fillStyle = coinColor;
+    ctx.fillStyle = coinColour;
     ctx.fillRect(coinX, coinY, 20, 20);
 
     ctx.font = "32px Arial";
-    ctx.fillStyle = textColor;
+    ctx.fillStyle = textColour;
     ctx.fillText("Score: " + score, 10, 30);
 }
 
