@@ -40,7 +40,6 @@ function game() {
             onGround = false;
             yvel = -120;
         }
-        yvel = 0;
     }
     
     y += yvel;
