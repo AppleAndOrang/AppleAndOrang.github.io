@@ -34,11 +34,11 @@ function game() {
     }
     
     if (!onGround) {
-        yvel += 1;
+        yvel += 10;
     } else {
         if (jumpkey) {
             onGround = false;
-            yvel = 12;
+            yvel = -120;
         }
         yvel = 0;
     }
