@@ -1,7 +1,7 @@
 let x = 50.0;
 let y = 50.0;
 
-let onground = false;
+let onGround = false;
 
 let score = 0;
 
