@@ -38,7 +38,7 @@ function game() {
     } else {
         if (jumpkey) {
             onGround = false;
-            yvel = -200;
+            yvel = -250;
         }
     }
     
