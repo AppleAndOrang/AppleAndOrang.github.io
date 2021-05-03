@@ -28,7 +28,7 @@ let platform = {
     
 //Some colours if you'd like:
 const playerColour = "rgb(118, 150, 86)";
-const platformColour = "rgb(120, 40, 0)";
+const platformColour = "rgb(255, 255, 255)";
 const screenColour = "rgb(0, 0, 0)";
 const coinColour = "rgb(221, 175, 12)";
 const textColour = "rgba(255,255,255,0.5)";
