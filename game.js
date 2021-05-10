@@ -9,7 +9,7 @@ let coinY = 0;
 let coinX = 0;
 
 let PlatX = 400;
-let PlatY = 400;
+let PlatY = 600;
 let PlatW = 100;
 let PlatH = 50;
 
