@@ -47,8 +47,10 @@ function game() {
         }
     }
     
+   if (((y > PlatY + PlatH )< Plat Y) +  ((100 + x) < (PlatY + PlatH))) {
     y += yvel;
     yvel = 0
+   }
 
     if ((x + 100 > coinX && x < coinX + 20) && (y + 100 > coinY && y < coinY + 20)) {
         score++;
