@@ -8,6 +8,11 @@ let score = 0;
 let coinY = 0;
 let coinX = 0;
 
+let PlatX = 0;
+let PlatY = 0;
+let PlatW = 100;
+let PlatH = 50;
+
 let xvel = 0;
 let yvel = 0;
 
@@ -73,6 +78,9 @@ function game() {
     ctx.fillStyle = screenColour;
     ctx.fillRect(0, 0, 800, 800);
 
+   ctx.fillStyle = platformColour;
+   ctx.fillRect(PlatX, PlatY, 50, 50);
+  
     ctx.fillStyle = playerColour;
     ctx.fillRect(x, y, 100, 100);
 
