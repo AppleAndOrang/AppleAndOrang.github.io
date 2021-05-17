@@ -47,7 +47,8 @@ function game() {
         }
     }
     
-   if (((y > PlatY && PlatH )< Plat Y) &&  ((100 && x) < (PlatY && PlatH))) {
+   if (y > PlatY) {return y-=10; yvel = 0}
+   else if (x > PlatX) {return y -=10; yvel = 0}  {
     y += yvel;
     yvel = 0
    }
