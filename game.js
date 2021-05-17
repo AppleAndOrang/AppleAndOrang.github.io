@@ -47,12 +47,11 @@ function game() {
         }
     }
     
-   if (y > PlatY) {return y-=10; yvel = 0}
-   else if (x > PlatX) {return y -=10; yvel = 0}  {
+   if (y > PlatY) {y-=10; yvel = 0}
+   if (x > PlatX) {y -=10; yvel = 0}  {
     y += yvel;
     yvel = 0
    }
-}
 
     if ((x + 100 > coinX && x < coinX + 20) && (y + 100 > coinY && y < coinY + 20)) {
         score++;
