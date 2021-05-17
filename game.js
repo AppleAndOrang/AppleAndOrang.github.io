@@ -48,7 +48,10 @@ function game() {
     }
     
    if (y > PlatY) {y-=10; yvel = 0}
-   if (x > PlatX) {y -=10; yvel = 0}  
+   if (x > PlatX) {y -=10; yvel = 0}
+   if (y+100 > PlatY)
+   if (y+100 > PlatY && y > PlatY)
+   if (y+100 > PlatY && y < PlatY && y + 100 < PlatY && PlatH)
   
   {
     y += yvel;
